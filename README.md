@@ -16,6 +16,8 @@ I build an app with a direct and powerful purpose. It does all of the things tha
 
 * [Ways to Import Images In React Js Project](https://www.youtube.com/watch?v=MRbqLWAwqko)
 
+* [Getting started with Vite js + React js + Bootstrap](https://www.youtube.com/watch?v=jDjAwJ87PPM)
+
 ### Lighthouse Accessibility Report Score
 
 ![Lighthouse Report](/images/LHScore.png)
@@ -24,3 +26,23 @@ I build an app with a direct and powerful purpose. It does all of the things tha
 
 * Consider including the answers to your daily journal and submission questions here
 * This is also a good place to reflect on the tools and resources used and learned
+
+## Features
+
+### Feature #1: Display Images
+
+- Given that a user opens the application in the browser
+When the user navigates to the home page
+Then the photo gallery should display all of the beasts' images in the gallery.4\
+
+### Feature #2: Allow Users to Favorite Individual Beasts
+
+- Given that a user opens the application in the browser
+When a user clicks on an image of a beast
+Then the number of "Favorites" displayed on that beast will increase by one.
+
+### Feature 3: Bootstrap
+
+- Given that a user opens the application in the browser
+When the images are displayed on the screen
+Then each image should be rendered in a visually pleasing way: in columns, as screen width allows.
