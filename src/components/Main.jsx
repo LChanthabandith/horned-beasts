@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import HornedBeast from './HornedBeast';
-import beastsData from './data.json';
+import data from './data.json';
 import { Container, Row, Col } from 'react-bootstrap';
 
 class Main extends Component {
@@ -8,12 +8,14 @@ class Main extends Component {
     return (
       <Container>
         <Row>
-          {beastsData.map(beast => 
+          {this.props.beasts.map(beast => 
             <Col xs={12} sm={6} md={4} key={beast._id}>
               <HornedBeast 
                 title={beast.title} 
                 imageUrl={beast.image_url} 
                 description={beast.description}
+                selectBeast={this.props.selectBeast} 
+                beast={beast} 
               />
             </Col>
           )}
