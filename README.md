@@ -29,26 +29,32 @@ I build an app with a direct and powerful purpose. It does all of the things tha
 
 ## Features
 
-### Feature #1: Display Images
+### Feature #1: Display Images (Lab: Class 02)
 
 - Given that a user opens the application in the browser
 When the user navigates to the home page
 Then the photo gallery should display all of the beasts' images in the gallery.4\
 
-### Feature #2: Allow Users to Favorite Individual Beasts
+### Feature #2: Allow Users to Favorite Individual Beasts (Lab: Class 02)
 
 - Given that a user opens the application in the browser
 When a user clicks on an image of a beast
 Then the number of "Favorites" displayed on that beast will increase by one.
 
-### Feature 3: Bootstrap
+### Feature 3: Bootstrap (Lab: Class 02)
 
 - Given that a user opens the application in the browser
 When the images are displayed on the screen
 Then each image should be rendered in a visually pleasing way: in columns, as screen width allows.
 
-### Feature #1: Display a Modal
+### Feature #1: Display a Modal (Lab: Class 03)
 
 - Given that a user wants to view the details of the image
 When the user clicks on an individual image
 Then the image should render larger on the screen with the description displayed
+
+### Feature 1. Filter by Numbers of Horns (Lab: Class 04)
+
+- Given that a user is presented with filtering options
+When the user clicks on one option
+Then the images should be filtered accordingly
