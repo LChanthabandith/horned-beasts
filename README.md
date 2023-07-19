@@ -46,3 +46,9 @@ Then the number of "Favorites" displayed on that beast will increase by one.
 - Given that a user opens the application in the browser
 When the images are displayed on the screen
 Then each image should be rendered in a visually pleasing way: in columns, as screen width allows.
+
+### Feature #1: Display a Modal
+
+- Given that a user wants to view the details of the image
+When the user clicks on an individual image
+Then the image should render larger on the screen with the description displayed
